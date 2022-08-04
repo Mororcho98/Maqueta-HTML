@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta Portafolio</title>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/bb4931cfee.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+<link rel="shortcut icon" href="ASSETS/IMG/engranajes.png">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <!--Logo Argetina Programa-->
+                <img src="ASSETS/IMG/arg-programa.png" alt="" width="40%" height="">
+            </a>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+            <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
+            <li class="list-group-item"><i class="fa-brands fa-github fa-2xl"></i></li>
+            <!--Button trigger modal-->
+            <li class="list-group-item">
+                <i class="fa-regular fa-solid fa-user-gear fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                </i>
+            </li>
+        </ul>
+      </nav>
+  
+<section id="modal">
+      <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contrasena</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Iniciar Sesion</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</header>
+<!--carrusel-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="ASSETS/IMG/FondoGris.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="ASSETS/IMG/FondoProgramacion.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+<main>
+<section id="sobre-mi" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="container">
+                <div class="card">
+                  <div class="face back">
+                    <div class="content">
+                      <span class="stars"></span>
+                      <img src="ASSETS/IMG/Foto perfilOtra.jpeg" class="rounded" alt=".." width="300" height="">
+                      <h3>Full Stack Developer Jr</h3>
+                      <h1>-------------</h1>
+                    </div>
+                  </div>
+                  <div class="face front">
+                    <h3>Willian Torres Pinto</h3>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-9">
+            <h2><p class="text-star">Sobre mi</p></h2>
+            <hr class="text-star" size="10" width="100%" color= "black">  
+            <h5 class="text-star"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto blanditiis cupiditate doloremque maiores harum molestias error magni ex possimus, consequatur cumque illo quos? Quae odit at earum ea hic dicta!</h5>  
+            </div>
+        </div>
+      </div>
+</section>
+<section id="Experiencia" class="Experiencia">
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <h1 class="text-star"><strong>Experiencia</strong></h1>
+          <hr size="10" width="120%" color= "rgba" (138, 201, 21) >
+      </div>
+      <div class="col-4"><h5 class="text-star">Logo del trabajo imagen de referencia</h5></div>
+      <div class="col-6"><h2 class="text-star">Titulo del Puesto</h2><br class="text-star"><h5 class="text-star">Descripcion de actividades realizadas en el puesto</h5></div>
+    </div>
+  </div>
+</section>
+<section id="Educacion" class="Educacion">
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        ><h1 class="text-end"><strong>Educacion</strong></h1>
+      </div>
+      <hr size="10" width="100%" color= "black" >
+      <div class="col-4"><h2>Titulo obtenido</h2><br><h5>Periodo en el que se obtuvo el titulo</h5></div>
+      <div class="col-6">Logo del trabajo imagen de referencia</div>
+    </div>
+  </div>
+</section>
+<section id="Habilidades" class="Habilidades">
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <h1 class="text-star"><strong>Habilidades</strong></h1>
+          <hr size="10" width="120%" color= "rgba" (138, 201, 21) >
+      </div>
+      <div class="col-4"><h5 class="text-end">Front End</h5></div>
+      <div class="col-6"><h2 class="text-star">
+        <div class="progress">
+        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+      </div></h2></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="prueba" class="this">
+    
+</section>
+</main>
+       
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
